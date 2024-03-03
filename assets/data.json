@@ -1,0 +1,23 @@
+[
+    {
+      "imageUri": "assets/images/express.png",
+      "title": "Express VPN",
+      "description": "Best VPN ever",
+      "pricing": "3.45$/month",
+      "rating": 5
+    },
+    {
+      "imageUri": "assets/images/surfshark.png",
+      "title": "SurfShark",
+      "description": "Best VPN ever",
+      "pricing": "3.82$/month",
+      "rating": 4
+    },
+    {
+      "imageUri": "assets/images/ipvanish.webp",
+      "title": "IPVanish",
+      "description": "Best VPN ever",
+      "pricing": "4.45$/month",
+      "rating": 4
+    }
+  ]
