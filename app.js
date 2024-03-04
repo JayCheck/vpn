@@ -4,23 +4,27 @@ const data = [
     "title": "Express VPN",
     "description": "Best VPN ever",
     "pricing": "3.45$/month",
-    "rating": 5
+    "rating": 5,
+    "url": "https://www.expressvpn.com/"
   },
   {
     "imageUri": "assets/images/surfshark.png",
     "title": "SurfShark",
     "description": "Best VPN ever",
     "pricing": "3.82$/month",
-    "rating": 4
+    "rating": 4,
+    "url": "https://get.surfshark.net/aff_c?offer_id=926&aff_id=29693"
   },
   {
     "imageUri": "assets/images/ipvanish.webp",
     "title": "IPVanish",
     "description": "Best VPN ever",
     "pricing": "4.45$/month",
-    "rating": 4
+    "rating": 4,
+    "url": "https://affiliate.ipvanish.com/aff_c?offer_id=1&aff_id=2727"
   }
 ];
+
 
 function createListView() {
   const listView = document.createElement('ul');
@@ -54,6 +58,10 @@ function createListView() {
       star.textContent = '★';
       rating.appendChild(star);
     }
+
+    listItem.addEventListener('click', () => {
+      window.location.href = item.url;
+    });
 
     const pricing = document.createElement('p');
     pricing.textContent = item.pricing;
