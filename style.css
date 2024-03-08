@@ -58,8 +58,7 @@ body {
     flex-direction: column;
     align-content: center;
     padding-left: 4px;
-    min-width: 20%;
-    max-width: 20%;
+    flex: 0 0 6rem;
 }
 
 .item-content .rating span {
