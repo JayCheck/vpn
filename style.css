@@ -50,19 +50,41 @@ body {
     margin: 2px 0;
 }
 
-.item-content .rating {
-}
+.item-content .rating {}
 
 .item-content .pricing {
     font-size: 16px;
     font-weight: bold;
     align-content: center;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     padding: 0px 8px;
 }
 
 .item-content .rating span {
     color: #ff9900;
     font-size: 16px;
+}
+
+.discount {
+    display: flex;
+    flex-direction: row;
+    font-style: italic;
+}
+
+.discounted-price {
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.strikethrough {
+    text-decoration: line-through;
+    padding: 0px 3px;
+    font-weight: lighter;
+    color: gray;
+}
+
+.discount-percent {
+    color: green;
 }
