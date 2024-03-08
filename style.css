@@ -28,6 +28,7 @@ body {
 
 .item-content img {
     width: 65px;
+    min-width: 65px;
     height: 70px;
     float: left;
 }
@@ -53,10 +54,12 @@ body {
 .item-content .pricing {
     font-size: 16px;
     font-weight: bold;
-    align-content: center;
     display: flex;
     flex-direction: column;
+    align-content: center;
     padding-left: 4px;
+    min-width: 20%;
+    max-width: 20%;
 }
 
 .item-content .rating span {
