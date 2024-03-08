@@ -2,7 +2,7 @@ const data = [
   {
     "imageUri": "assets/images/surfshark.png",
     "title": "SurfShark",
-    "description": "A single Surfshark subscription works simultaneously on multiple devices and protects your entire household.",
+    "description": "A single subscription works simultaneously on multiple devices",
     "pricing": {
       "original": "15.95",
       "discounted": "2.29"
@@ -13,7 +13,7 @@ const data = [
   {
     "imageUri": "assets/images/ipvanish.webp",
     "title": "IPVanish",
-    "description": "Start a safer internet journey with IPVanish VPN. Fast speeds, verified no-traffic-logs, and apps for all devices.",
+    "description": "Fast speeds, verified no-traffic-logs, and apps for all devices.",
     "pricing": {
       "original": "12.99",
       "discounted": "2.75"
@@ -30,7 +30,7 @@ const data = [
       "discounted": "4.99"
     },
     "rating": 4,
-    "url": "https://affiliate.ipvanish.com/aff_c?offer_id=1&aff_id=2727"
+    "url": "https://go.getproton.me/aff_c?offer_id=26&aff_id=7343"
   },
 
 ];

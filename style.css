@@ -37,7 +37,7 @@ body {
     flex-direction: column;
     flex: 1 1 auto;
     justify-content: space-between;
-    margin: 0px 10px;
+    padding-left: 10px;
 }
 
 .item-content h2 {
@@ -46,11 +46,9 @@ body {
 }
 
 .item-content p {
-    font-size: 14px;
+    font-size: 12px;
     margin: 2px 0;
 }
-
-.item-content .rating {}
 
 .item-content .pricing {
     font-size: 16px;
@@ -58,7 +56,7 @@ body {
     align-content: center;
     display: flex;
     flex-direction: column;
-    padding: 0px 8px;
+    padding-left: 4px;
 }
 
 .item-content .rating span {
