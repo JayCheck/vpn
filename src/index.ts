@@ -131,7 +131,7 @@ const data: Item[] = [
   {
     imageUri: "assets/images/ipvanish.webp",
     title: "IPVanish",
-    description: "Fast speeds, verified no-traffic-logs, and apps for all devices.",
+    description: "Fast speeds, verified no-traffic-logs, and apps for all devices",
     pricing: {
       original: "12.99",
       discounted: "2.75"
