@@ -3,7 +3,7 @@ name: Deploy
 on:
   push:
     branches:
-      - gh-pages
+      - master
 
 jobs:
   build:
@@ -27,8 +27,8 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@3.7.1
         with:
-          branch: gh-pages # GitHub Pages가 호스팅되는 브랜치로 설정
-          folder: dist # 빌드된 파일이 위치한 폴더명으로 설정
+          branch: gh-pages
+          folder: dist
           clean: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
