@@ -19,7 +19,8 @@ function createListItem(item: VPNItem): HTMLLIElement {
   listItem.classList.add('list-item');
 
   listItem.addEventListener('click', () => {
-    window.location.href = item.url;
+    // window.location.href = item.url;
+    window.open(item.url)?.focus();
   });
 
   const itemContent = document.createElement('div');
