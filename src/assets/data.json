@@ -1,0 +1,35 @@
+[
+  {
+    "imageUri": "assets/images/surfshark.png",
+    "title": "SurfShark",
+    "description": "A single subscription works simultaneously on multiple devices",
+    "pricing": {
+      "original": "15.95",
+      "discounted": "2.29"
+    },
+    "rating": 4,
+    "url": "https://get.surfshark.net/aff_c?offer_id=926&aff_id=29693"
+  },
+  {
+    "imageUri": "assets/images/ipvanish.webp",
+    "title": "IPVanish",
+    "description": "Fast speeds, verified no-traffic-logs, and apps for all devices",
+    "pricing": {
+      "original": "12.99",
+      "discounted": "2.75"
+    },
+    "rating": 4,
+    "url": "https://affiliate.ipvanish.com/aff_c?offer_id=1&aff_id=2727"
+  },
+  {
+    "imageUri": "assets/images/proton.png",
+    "title": "ProtonVPN",
+    "description": "High speed Swiss VPN. Thousands of servers 60+ countries.",
+    "pricing": {
+      "original": "9.99",
+      "discounted": "4.99"
+    },
+    "rating": 4,
+    "url": "https://go.getproton.me/aff_c?offer_id=26&aff_id=7343"
+  }
+]
