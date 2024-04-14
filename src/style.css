@@ -1,90 +1,12 @@
-body {
-    font-family: sans-serif;
+body, html {
     margin: 0;
     padding: 0;
+    height: 100%;
+    overflow: hidden;
 }
 
-.title {
-    padding: 0px 10px;
-}
-
-.list-view {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.list-item {
-    border-bottom: 1px solid #ccc;
-    padding: 10px 5px;
-}
-
-.item-content {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin: 5px 5px;
-}
-
-.item-content img {
-    width: 65px;
-    min-width: 65px;
-    height: 70px;
-    float: left;
-}
-
-.text-content {
-    display: flex;
-    flex-direction: column;
-    flex: 1 1 auto;
-    justify-content: space-between;
-    padding-left: 10px;
-}
-
-.item-content h2 {
-    font-size: 18px;
-    margin: 0;
-}
-
-.item-content p {
-    font-size: 12px;
-    margin: 2px 0;
-}
-
-.item-content .pricing {
-    font-size: 16px;
-    font-weight: bold;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    padding-left: 4px;
-    flex: 0 0 6rem;
-}
-
-.item-content .rating span {
-    color: #ff9900;
-    font-size: 16px;
-}
-
-.discount {
-    display: flex;
-    flex-direction: row;
-    font-style: italic;
-}
-
-.discounted-price {
-    color: red;
-    font-weight: bold;
-    font-size: 20px;
-}
-
-.strikethrough {
-    text-decoration: line-through;
-    padding: 0px 3px;
-    font-weight: lighter;
-    color: gray;
-}
-
-.discount-percent {
-    color: green;
+.fullscreen-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
