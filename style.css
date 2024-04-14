@@ -6,8 +6,12 @@ body, html {
 }
 
 .fullscreen-container {
-    display:flex;
-    justify-content: center;
-    height: 100vh;
-    object-fit: cover;
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.fullscreen-container img {
+    width: 100%;
+    height: auto;
 }
